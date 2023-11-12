@@ -1,0 +1,27 @@
+.experience li {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-top: 3rem;
+}
+
+.experience > li > p {
+  width: 80%;
+  text-align: justify;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+.experience > li span {
+  font-family: sans-serif;
+  font-weight: 300;
+}
+.experience > li > span::before {
+  content: '';
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background-image: url(/img/icons/date-icon.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 0.5rem;
+}
