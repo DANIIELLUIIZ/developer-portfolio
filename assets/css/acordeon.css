@@ -61,26 +61,3 @@
   display: flex;
   height: 100%;
 }
-.content ul {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0.7rem 0;
-  gap: 2rem;
-}
-
-.content ul li {
-  position: relative;
-  margin-left: 1.9rem;
-}
-
-.content ul li::before {
-  content: '';
-  position: absolute;
-  width: 1.2rem;
-  top: 0.1rem;
-  height: 0.9rem;
-  left: -1.5rem;
-  background-image: url(../../img/icons/check-icon.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-}

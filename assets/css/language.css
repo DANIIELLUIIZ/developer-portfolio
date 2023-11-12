@@ -1,0 +1,20 @@
+.content > .language {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.7rem 0;
+  gap: 2rem;
+}
+.content > .language > li {
+  position: relative;
+}
+
+.content > .language > li::before {
+  content: '';
+  display: inline-block;
+  width: 1.2rem;
+  height: 0.9rem;
+  margin-right: 0.5rem;
+  background-image: url(../../img/icons/check-icon.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}

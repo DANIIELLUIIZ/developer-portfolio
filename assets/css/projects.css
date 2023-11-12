@@ -1,0 +1,30 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.projects li {
+  position: relative;
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+.title {
+  position: relative;
+}
+.title.github::before {
+  content: '';
+  display: inline-block;
+  width: 1.2rem;
+  height: 0.9rem;
+  margin-right: 0.5rem;
+  background-image: url(../../img/icons/github-icon.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.projects > li > a {
+  color: #ffffff;
+}
