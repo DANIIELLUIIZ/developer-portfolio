@@ -28,6 +28,7 @@ header p {
   margin: 0.4rem 0;
   color: #ffffff;
 }
+
 header p::before {
   content: '';
   display: inline-block;
@@ -81,6 +82,5 @@ header p::before {
   }
   header p {
     grid-area: info;
-    
   }
 }
