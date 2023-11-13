@@ -7,11 +7,9 @@
   font-family: Neue Machina;
   src: url(../fonts/neue-machina-regular.otf);
 }
-li,
-ul,
+
 a {
   text-decoration: none;
-  list-style: none;
 }
 a {
   color: #ffffff;

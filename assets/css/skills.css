@@ -1,4 +1,44 @@
 .skills-container {
   justify-content: space-around;
+  padding: 2rem 0;
 }
 
+.skills-container .title {
+  padding: 1rem;
+}
+
+.skill-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 1rem;
+
+  gap: 1rem;
+}
+.skill-list li img {
+  width: 3rem;
+}
+
+.personal-skills-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .skills-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .skill-list li img {
+    width: 2.5rem;
+  }
+
+  .personal-skills-list li {
+    font-size: 0.8rem;
+  }
+}
