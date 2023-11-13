@@ -36,6 +36,7 @@
 }
 .acordeon.open {
   background: #55569e;
+  border: 1px solid #55569e;
 }
 .acordeon.open.acordeon::after {
   transform: rotate(-130deg);
@@ -64,10 +65,10 @@
 
 @media (max-width: 768px) {
   .acordeon h2 {
-   font-size: 1rem;
+    font-size: 1rem;
   }
 
   .acordeon p {
     font-size: 0.8rem;
-   }
+  }
 }
