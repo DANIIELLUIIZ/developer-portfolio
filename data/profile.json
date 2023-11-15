@@ -49,14 +49,25 @@
   "projects": [
     {
       "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/brunomourasoares/js-developer-pokedex",
+      "url": "https://daniielluiiz.github.io/estudo-api-pokemon/",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/brunomourasoares/js-developer-portfolio",
+      "name": "Impar ou par.",
+      "url": "https://daniielluiiz.github.io/impar-ou-par/",
+      "github": true
+    },
+    {
+      "name": "Calculadora IMC.",
+      "url": "https://daniielluiiz.github.io/calculadora-imc/",
+      "github": true
+    },
+    {
+      "name": "Desafio Front-end mentor",
+      "url": "https://daniielluiiz.github.io/Desafio-FrontEnd-Mentor/",
       "github": true
     }
+
   ],
   "professionalExperience": [
     {
