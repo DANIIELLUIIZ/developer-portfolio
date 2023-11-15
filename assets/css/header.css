@@ -30,7 +30,6 @@
 .information p {
   display: flex;
   flex-direction: row;
-  align-items: center;
   color: var(--letter-light-color);
   font-family: var(--main-font);
   word-break: break-all;
