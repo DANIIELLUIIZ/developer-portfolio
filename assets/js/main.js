@@ -31,11 +31,10 @@ function updateProfileHardSkills(profileData) {
 }
 
 function updateProfileSoftSkills(profileData) {
-  const softSkillsData = profileData.skills.softSkills
   const softSkills = document.getElementById('profile.softSkills')
-  for (let i = 0; i < softSkillsData.length; i++) {
-    softSkills.innerHTML += `<li>${softSkillsData[i]}</li>`
-  }
+  softSkills.innerHTML = profileData.skills.softSkills
+    .map(skill => `<li>${skill}</li>`)
+    .join('')
 }
 
 ;(async () => {
