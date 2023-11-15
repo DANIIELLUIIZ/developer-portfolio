@@ -9,28 +9,28 @@
   "skills": {
     "hardSkills": [
       {
+        "name": "JavaScript",
+        "logo": "https://raw.githubusercontent.com/DANIIELLUIIZ/developer-portfolio/main/data/tec-icons/javaScript.svg"
+      },
+      {
+        "name": "React",
+        "logo": "https://raw.githubusercontent.com/DANIIELLUIIZ/developer-portfolio/main/data/tec-icons/react.svg"
+      },
+      {
+        "name": "Type Script",
+        "logo": "https://raw.githubusercontent.com/DANIIELLUIIZ/developer-portfolio/main/data/tec-icons/typeScript.svg"
+      },
+      {
+        "name": "GitHub",
+        "logo": "https://raw.githubusercontent.com/DANIIELLUIIZ/developer-portfolio/main/data/tec-icons/gitHub.svg"
+      },
+      {
         "name": "CSS",
-        "logo": "https://github.com/DANIIELLUIIZ/developer-portfolio/blob/main/data/tec-icons/default-profile-img.jpg"
+        "logo": "https://raw.githubusercontent.com/DANIIELLUIIZ/developer-portfolio/main/data/tec-icons/css.svg"
       },
       {
-        "name": "Java",
-        "logo": "/js-developer-portifolio/data/imgs/java.png"
-      },
-      {
-        "name": "Angular",
-        "logo": "/js-developer-portifolio/data/imgs/angular.png"
-      },
-      {
-        "name": "Git",
-        "logo": "/js-developer-portifolio/data/imgs/git.png"
-      },
-      {
-        "name": "MySQL",
-        "logo": "/js-developer-portifolio/data/imgs/mysql.png"
-      },
-      {
-        "name": "Postgresql",
-        "logo": "/js-developer-portifolio/data/imgs/postgresql.png"
+        "name": "HTML",
+        "logo": "https://raw.githubusercontent.com/DANIIELLUIIZ/developer-portfolio/main/data/tec-icons/html.svg"
       }
     ],
     "softSkills": [
