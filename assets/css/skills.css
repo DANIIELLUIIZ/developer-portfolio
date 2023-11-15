@@ -7,7 +7,7 @@
   padding: 1rem;
 }
 
-.skill-list {
+.hard-skill-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: flex-start;
@@ -18,11 +18,11 @@
 
   gap: 1rem;
 }
-.skill-list li img {
+.hard-skill-list li img {
   width: 3rem;
 }
 
-.personal-skills-list {
+.soft-skills-list {
   gap: 0.5rem;
   padding: 0 0.5rem;
 }
@@ -33,14 +33,14 @@
     align-items: center;
   }
 
-  .skill-list li img {
+  .hard-skill-list li img {
     width: 2.5rem;
   }
 
-  .personal-skills-list li {
+  .soft-skills li {
     font-size: 0.8rem;
   }
-  .skills {
+  .hard-skills {
     display: flex;
     flex-direction: column;
     align-items: center;
