@@ -4,7 +4,10 @@
 }
 
 .skills-container .title {
+  font-size: 1.5rem;
+  font-weight: 400;
   padding: 1rem;
+  font-family: var(--main-font);
 }
 
 .hard-skill-list {
@@ -15,7 +18,6 @@
   flex-wrap: wrap;
   list-style: none;
   padding: 1rem;
-
   gap: 1rem;
 }
 .hard-skill-list li img {
@@ -23,8 +25,13 @@
 }
 
 .soft-skills-list {
-  gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
   padding: 0 0.5rem;
+}
+.soft-skills-list li {
+  text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -33,17 +40,52 @@
     align-items: center;
   }
 
-  .hard-skill-list li img {
-    width: 2.5rem;
-  }
-
-  .soft-skills li {
-    font-size: 0.8rem;
-  }
   .hard-skills {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+  }
+  .hard-skill-list li img {
+    width: 2.5rem;
+  }
+  .hard-skill-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0;
+  }
+  .hard-skill-list li {
+    list-style: none;
+    font-size: 0.8rem;
+    gap: 0.5rem;
+  }
+
+  .soft-skills-list {
+    text-align: center;
+  }
+}
+
+@media (max-width: 300px) {
+  .hard-skill-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0;
+  }
+  .skills-container .title {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 240px) {
+  .hard-skill-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+  }
+
+  .soft-skills-list li {
+    position: relative;
+    list-style: none;
   }
 }
