@@ -8,8 +8,8 @@
 }
 
 .skill-list {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
@@ -23,8 +23,6 @@
 }
 
 .personal-skills-list {
-  display: flex;
-  flex-direction: column;
   gap: 0.5rem;
   padding: 0 0.5rem;
 }
@@ -34,11 +32,18 @@
     flex-direction: column;
     align-items: center;
   }
+
   .skill-list li img {
     width: 2.5rem;
   }
 
   .personal-skills-list li {
     font-size: 0.8rem;
+  }
+  .skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 }
