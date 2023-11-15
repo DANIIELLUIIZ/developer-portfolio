@@ -1,0 +1,68 @@
+{
+  "title": "Portifólio",
+  "name": "Daniel Freitas",
+  "photo": "https://avatars.githubusercontent.com/u/101511389?v=4",
+  "job": "Web Developer",
+  "location": "Rio de Janeiro - RJ",
+  "phone": "(21) 9 9829-7935",
+  "email": "danielfreitas.dev@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "Nodejs",
+        "logo": "/js-developer-portifolio/data/imgs/nodejs.png"
+      },
+      {
+        "name": "Java",
+        "logo": "/js-developer-portifolio/data/imgs/java.png"
+      },
+      {
+        "name": "Angular",
+        "logo": "/js-developer-portifolio/data/imgs/angular.png"
+      },
+      {
+        "name": "Git",
+        "logo": "/js-developer-portifolio/data/imgs/git.png"
+      },
+      {
+        "name": "MySQL",
+        "logo": "/js-developer-portifolio/data/imgs/mysql.png"
+      },
+      {
+        "name": "Postgresql",
+        "logo": "/js-developer-portifolio/data/imgs/postgresql.png"
+      }
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Colaboração",
+      "Organização",
+      "Inteligência Emocional",
+      "Relacionamento Interpessoal",
+      "Capacidade de Resolução de Problemas"
+    ]
+  },
+  "languages": [
+    "Português BR",
+    "Inglês (Intermediário)"
+  ],
+  "portfolio": [
+    {
+      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
+      "url": "https://github.com/brunomourasoares/js-developer-pokedex",
+      "github": true
+    },
+    {
+      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
+      "url": "https://github.com/brunomourasoares/js-developer-portfolio",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Técnico de Informática",
+      "period": "2008 - Atualmente",
+      "description": "Instalação e Configuração de Equipamentos Eletrônicos de Segurança."
+    }
+  ]
+}
