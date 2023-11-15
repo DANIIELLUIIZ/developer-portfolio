@@ -44,21 +44,24 @@
   <body>
     <div class="main">
       <header class="header">
-        <img src="" alt="Foto de perfil" class="photo profile-photo" />
+        <img
+          src="./img/default-profile-img.jpg"
+          alt="Foto de perfil"
+          id="profile.photo"
+          class="photo"
+        />
         <h1>
           Olá,<br />
-          eu sou <span class="profile-name">Carregando...</span>.
+          eu sou <span id="profile.name">Carregando...</span>.
         </h1>
         <div class="information">
-          <p class="job profile-job">Carregando...</p>
-          <p class="local profile-location">Carregando...</p>
+          <p id="profile.job" class="job">Carregando...</p>
+          <p id="profile.location" class="local">Carregando...</p>
           <p class="phone">
-            <a href="tel:(21) 9 9829-7935" class="profile-phone"
-              >Carregando...</a
-            >
+            <a href="tel:(21) 9 9829-7935" id="profile.phone">Carregando...</a>
           </p>
           <p class="email">
-            <a href="mailto:danielfreitas.dev@gmail.com" class="profile-email"
+            <a href="mailto:danielfreitas.dev@gmail.com" id="profile.email"
               >carregando@mail.com</a
             >
           </p>
@@ -70,30 +73,11 @@
         <div class="content skills-container">
           <div class="skills">
             <h3 class="title">Habilidades profissionais:</h3>
-            <ul class="skill-list">
-              <li><img src="./img/icons/tec-icons/css-icon.svg" alt=""  class="profile.css"/></li>
-              <li><img src="./img/icons/tec-icons/html-icon.svg" alt="" /></li>
-              <li><img src="./img/icons/tec-icons/react-icon.svg" alt="" /></li>
-              <li>
-                <img src="./img/icons/tec-icons/javaScript-icon.svg" alt="" />
-              </li>
-              <li>
-                <img src="./img/icons/tec-icons/type-script-icon.svg" alt="" />
-              </li>
-              <li>
-                <img src="./img/icons/tec-icons/gitHub-icon.svg" alt="" />
-              </li>
-            </ul>
+            <ul id="profile.hardSkills" class="skill-list"></ul>
           </div>
           <div class="personal-skills">
             <h3 class="title">Habilidades pessoais:</h3>
-            <ul class="personal-skills-list">
-              <li>Facilidade com tarefas práticas</li>
-              <li>Organização</li>
-              <li>Comunicação</li>
-              <li>Comprometimento com resultados</li>
-              <li>Trabalho em Equipe</li>
-            </ul>
+            <ul id="profile.softSkills" class="personal-skills-list"></ul>
           </div>
         </div>
       </section>
