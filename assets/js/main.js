@@ -20,15 +20,12 @@ function updateProfileInfo(profileData) {
   email.href = `mailto:${profileData.email}`
 }
 function updateProfileHardSkills(profileData) {
-  const hardSkillsData = profileData.skills.hardSkills
   const hardSkills = document.getElementById('profile.hardSkills')
-  for (let i = 0; i <= 0; i++) {
-    hardSkills.innerHTML += ` <li>
-<img src="${hardSkillsData[i].logo}"alt="${hardSkillsData[i].name}" />
-</li>
-`
+  hardSkills.innerHTML = profileData.skills.hardSkills
+    .map(skill => `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}" /></li>`)
+    .join('')
   }
-}
+
 
 function updateProfileSoftSkills(profileData) {
   const softSkills = document.getElementById('profile.softSkills')
