@@ -52,7 +52,7 @@ function updateProfileProjects(profileData) {
       project => `  <li>
     <span class="project-title github">${project.name}</span>
     <a
-      href="${project.url}"_blank"
+      href="${project.url}" target="_blank"
       >Clique aqui</a
     >
   </li>`
