@@ -1,4 +1,4 @@
-header {
+.header {
   display: flex;
   width: 100%;
   flex-direction: column;
@@ -6,19 +6,19 @@ header {
   justify-content: center;
 }
 
-header .photo {
+.header .photo {
   width: 200px;
   border-radius: 50%;
   border: 5px solid #ffffff63;
 }
 
-header h1 {
+.apresentation {
   text-align: center;
   font-family: 'Neue Machina';
   color: #ffffff;
 }
 
-header p {
+.information p {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -29,7 +29,7 @@ header p {
   color: #ffffff;
 }
 
-header p::before {
+.header p::before {
   content: '';
   display: inline-block;
   width: 1rem;
@@ -63,7 +63,7 @@ header p::before {
 }
 
 @media (min-width: 768px) {
-  header {
+  .header {
     display: grid;
     grid-template-areas:
       'photo title'
@@ -71,16 +71,16 @@ header p::before {
     flex-direction: row;
     justify-content: space-around;
   }
-  header img {
+  .header img {
     grid-area: photo;
     margin: 0 auto;
   }
-  header h1 {
+  .header h1 {
     grid-area: title;
     text-align: start;
     max-width: 200px;
   }
-  header p {
+  .header p {
     grid-area: info;
   }
 }
