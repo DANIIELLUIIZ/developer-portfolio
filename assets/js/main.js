@@ -45,11 +45,23 @@ function updateProfileLanguages(profileData) {
 }
 
 function updateProfileProjects(profileData) {
-  const projects = document.getElementById('profile.projects')
+  const project = document.getElementById('profile.projects')
 
-  projects.innerHTML = profileData.projects
-    .map(lang => ` <li>${lang}</li>`)
+  project.innerHTML = profileData.projects
+    .map(
+      project => `  <li>
+    <span class="title github">${project.name}</span>
+    <a
+      href="${project.url}"_blank"
+      >Clique aqui</a
+    >
+  </li>`
+    )
     .join('')
+}
+
+function updateProfileProfessionalExperience(profileData){
+  
 }
 
 ;(async () => {
@@ -58,4 +70,5 @@ function updateProfileProjects(profileData) {
   updateProfileSoftSkills(profileData)
   updateProfileHardSkills(profileData)
   updateProfileLanguages(profileData)
+  updateProfileProjects(profileData)
 })()
