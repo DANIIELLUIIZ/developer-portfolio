@@ -75,20 +75,12 @@
     grid-area: photo;
     margin: 0 auto;
   }
-<<<<<<< HEAD
   .apresentation {
-=======
-  .header h1 {
->>>>>>> 7a539f795958ec6fee2e42f2738e02ac773761be
     grid-area: title;
     text-align: start;
     max-width: 200px;
   }
-<<<<<<< HEAD
   .information p {
-=======
-  .header p {
->>>>>>> 7a539f795958ec6fee2e42f2738e02ac773761be
     grid-area: info;
   }
 }
