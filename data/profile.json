@@ -50,21 +50,25 @@
     {
       "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
       "url": "https://daniielluiiz.github.io/estudo-api-pokemon/",
+      "description":"Realiza o consumo da PokéAPI para mostrar os Pokémon na tela. Aprimorei, adicionando um menu que se estende para exibir mais dados sobre o Pokémon escolhido." ,
       "github": true
     },
     {
       "name": "Impar ou par.",
       "url": "https://daniielluiiz.github.io/impar-ou-par/",
+      "description":"O usuário escolhe um número de 0 a 10 para jogar contra a máquina." ,
       "github": true
     },
     {
       "name": "Calculadora IMC.",
       "url": "https://daniielluiiz.github.io/calculadora-imc/",
+      "description":"Calcula o percentual de gordura com base nos valores informados (peso e altura) e classifica com base no resultado obtido." ,
       "github": true
     },
     {
       "name": "Desafio Front-end mentor",
       "url": "https://daniielluiiz.github.io/Desafio-FrontEnd-Mentor/",
+      "description":"Desafio do site Frontend Mentor para reproduzir um layout nas versões desktop e mobile." ,
       "github": true
     }
 
