@@ -1,6 +1,6 @@
 {
   "title": "Portifólio",
-  "name": "Daniel Freitas",
+  "name": "Daniel L Freitas",
   "photo": "https://avatars.githubusercontent.com/u/101511389?v=4",
   "job": "Web Developer",
   "location": "Rio de Janeiro - RJ",
@@ -9,7 +9,7 @@
   "skills": {
     "hardSkills": [
       {
-        "name": "Nodejs",
+        "name": "CSS",
         "logo": "/js-developer-portifolio/data/imgs/nodejs.png"
       },
       {
