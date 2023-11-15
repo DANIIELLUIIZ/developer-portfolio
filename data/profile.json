@@ -10,7 +10,7 @@
     "hardSkills": [
       {
         "name": "CSS",
-        "logo": "/js-developer-portifolio/data/imgs/nodejs.png"
+        "logo": "https://github.com/DANIIELLUIIZ/developer-portfolio/blob/main/data/tec-icons/css-icon.svg"
       },
       {
         "name": "Java",
