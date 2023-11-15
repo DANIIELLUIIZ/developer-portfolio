@@ -12,7 +12,7 @@
   flex-direction: column;
   margin-left: 2rem;
 }
-.title {
+.project-title {
   position: relative;
 }
 .title.github::before {
