@@ -55,6 +55,7 @@ function updateProfileProjects(profileData) {
       href="${project.url}" target="_blank"
       >Clique aqui</a
     >
+    <p>${project.description}<p>
   </li>`
     )
     .join('')
