@@ -46,7 +46,7 @@
     "Português BR",
     "Inglês (Intermediário)"
   ],
-  "portfolio": [
+  "projects": [
     {
       "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
       "url": "https://github.com/brunomourasoares/js-developer-pokedex",
