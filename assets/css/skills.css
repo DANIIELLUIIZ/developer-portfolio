@@ -60,21 +60,22 @@
     font-size: 0.8rem;
     gap: 0.5rem;
   }
-
-  .soft-skills-list {
-    text-align: center;
-  }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 400px) {
   .hard-skill-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 0;
+    align-items: center;
   }
   .skills-container .title {
     font-size: 1rem;
     font-weight: 400;
+  }
+  .soft-skills-list{
+    text-align: center;
+    
   }
 }
 

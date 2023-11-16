@@ -39,13 +39,22 @@
 .projects p {
   font-size: 1rem;
 }
-.title.github::before {
+.project-title.github::before {
   content: '';
   display: inline-block;
   width: 1.2rem;
-  height: 0.9rem;
+  height: 1.2rem;
   margin-right: 0.5rem;
-  background-image: url(img/icons/github-icon.svg);
+  background-image: url(/img/icons/github.svg);
   background-repeat: no-repeat;
   background-size: contain;
+}
+@media (max-width: 400px) {
+  .projects {
+    text-align: left;
+  }
+
+  .projects li {
+    margin: 0;
+  }
 }
