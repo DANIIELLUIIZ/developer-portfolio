@@ -48,16 +48,16 @@
   background-size: contain;
 }
 .job::before {
-  background-image: url(img/icons/job.svg);
+  background-image: url(../img/icons/job.svg);
 }
 .local::before {
-  background-image: url(img/icons/local.svg);
+  background-image: url(../img/icons/local.svg);
 }
 .phone::before {
-  background-image: url(img/icons/phone.svg);
+  background-image: url(../img/icons/phone.svg);
 }
 .email::before {
-  background-image: url(img/icons/email.svg);
+  background-image: url(../img/icons/email.svg);
 }
 .information {
   display: flex;
