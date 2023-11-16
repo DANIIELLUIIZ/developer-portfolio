@@ -20,7 +20,7 @@
   content: '';
   width: 1rem;
   height: 2px;
-  top: 1.8rem;
+  top: 1.6rem;
   right: 1rem;
   background-color: var(--letter-light-color);
   transition: 0.6s ease-in-out;
