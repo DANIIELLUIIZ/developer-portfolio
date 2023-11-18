@@ -42,7 +42,13 @@ body {
   flex-direction: column;
   justify-content: space-around;
   padding: 2rem 1rem;
+<<<<<<< HEAD
   margin: 0 auto;
+=======
+  
+  
+
+>>>>>>> 6966d986ac5b2a038da187780a2b82420aabe44b
   align-self: center;
   border-radius: 1rem;
   border: 2px solid rgba(59, 199, 89, 0.383);
@@ -53,7 +59,10 @@ body {
 @media (max-width: 768px) {
   .main {
     width: 100%;
+<<<<<<< HEAD
     min-height: 100%;
+=======
+>>>>>>> 6966d986ac5b2a038da187780a2b82420aabe44b
     margin: 0;
     border-radius: 0;
     padding: 2rem 0.5rem;

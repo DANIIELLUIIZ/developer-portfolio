@@ -32,7 +32,7 @@
   font-family: var(--main-font);
   word-break: break-all;
   font-weight: 300;
-  margin: 0.4rem 0;
+  margin: 0.2rem;
 }
 
 .header p::before {
@@ -46,16 +46,16 @@
   background-size: contain;
 }
 .job::before {
-  background-image: url(/img/icons/job.svg);
+  background-image: url(https://raw.githubusercontent.com/DANIIELLUIIZ/developer-portfolio/main/img/icons/job.svg);
 }
 .local::before {
-  background-image: url(/img/icons/local.svg);
+  background-image: url(https://raw.githubusercontent.com/DANIIELLUIIZ/developer-portfolio/main/img/icons/local.svg);
 }
 .phone::before {
-  background-image: url(/img/icons/phone.svg);
+  background-image: url(https://raw.githubusercontent.com/DANIIELLUIIZ/developer-portfolio/main/img/icons/phone.svg);
 }
 .email::before {
-  background-image: url(/img/icons/email.svg);
+  background-image: url(https://raw.githubusercontent.com/DANIIELLUIIZ/developer-portfolio/main/img/icons/email.svg);
 }
 .information {
   display: flex;
