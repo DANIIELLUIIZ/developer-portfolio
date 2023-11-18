@@ -3,9 +3,10 @@
   cursor: pointer;
   width: 100%;
   color: var(--letter-color);
-  border: 1px solid var(--border-light);
+  border: 2px solid rgba(59, 199, 89, 0.383);
   border-radius: 1rem;
   padding: 1.2rem 1rem;
+  margin: 0.5rem 0;
   transition: 0.4s ease-in-out;
 }
 .acordeon:hover {
@@ -20,7 +21,7 @@
   content: '';
   width: 1rem;
   height: 2px;
-  top: 2rem;
+  top: 1.8rem;
   right: 1rem;
   background-color: var(--letter-light-color);
   transition: 0.6s ease-in-out;
@@ -54,6 +55,7 @@
 }
 .acordeon h2 {
   pointer-events: none;
+  font-size: 1.2rem;
   width: fit-content;
   color: var(--letter-light-color);
   font-family: var(--main-font);
@@ -63,6 +65,7 @@
   display: none;
   cursor: default;
   width: 100%;
+  margin: 1rem 0;
   height: 0;
   transition: 1s ease-in-out;
 }
