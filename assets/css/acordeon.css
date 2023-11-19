@@ -5,9 +5,9 @@
   color: var(--letter-color);
   border: 2px solid rgba(59, 199, 89, 0.383);
   border-radius: 1rem;
-  margin: 1rem 0;
   padding: 1.2rem 1rem;
   margin: 0.5rem 0;
+
   transition: 0.4s ease-in-out;
 }
 .acordeon:hover {
@@ -22,7 +22,7 @@
   content: '';
   width: 1rem;
   height: 2px;
-  top: 1.8rem;
+  top: 1.6rem;
   right: 1rem;
   background-color: var(--letter-light-color);
   transition: 0.6s ease-in-out;
@@ -36,7 +36,6 @@
 }
 .acordeon.open {
   background: var(--main-color);
-  border: 1px solid var(--border);
 }
 .acordeon.open::after,
 .acordeon.open::before {
@@ -64,23 +63,18 @@
 }
 .content {
   display: none;
+
   cursor: default;
   width: 100%;
-  margin: 1rem 0;
   height: 0;
-  margin: 0.8rem 0;
-  transition: 1s ease-in-out;
+  margin: 1rem 0;
 }
 .content.open {
   display: flex;
-  height: 100%;
-  align-items: center;
+  height: auto;
 }
 
 @media (max-width: 768px) {
-  .acordeon {
-    margin: 1rem 0;
-  }
   .acordeon h2 {
     font-size: 1rem;
   }
