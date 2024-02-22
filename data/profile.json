@@ -9,10 +9,6 @@
   "skills": {
     "hardSkills": [
       {
-        "name": "JavaScript",
-        "logo": "https://raw.githubusercontent.com/DANIIELLUIIZ/developer-portfolio/main/data/tec-icons/javaScript.svg"
-      },
-      {
         "name": "React",
         "logo": "https://raw.githubusercontent.com/DANIIELLUIIZ/developer-portfolio/main/data/tec-icons/react.svg"
       },
@@ -69,6 +65,12 @@
       "name": "Desafio Front-end mentor.",
       "url": "https://daniielluiiz.github.io/Desafio-FrontEnd-Mentor/",
       "description":"Desafio do site Frontend Mentor para reproduzir um layout nas versões desktop e mobile." ,
+      "github": true
+    },
+      {
+      "name": "Controle estacionamento.",
+      "url": "https://daniielluiiz.github.io/estacionamento/",
+      "description":"Sistema de controle de estacionamento para ser usado em desktop." ,
       "github": true
     }
 
